@@ -115,108 +115,53 @@ body {
 	padding:0;
 }
 
-/* Creating Project Window */
+/* Style the header */
+.header {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Baloo 2', cursive;
+}
+  
+.header h1 {
+	background-color:#0883e0;
+	color:white;
+}
 
+/* Create the Boxes here */
 
-.iframe-container {
-	position: relative;
-	width:100%;
-	height:0;
-	padding-bottom:56.25%;
-	position: relative;
-  } 
+.column1 {
+    width:600px;
+    height:350px;
+	left:50%;
+	border-style:solid;
+	border-color:black;
+}
 
-.iframe-container iframe {
-	position: absolute;
-	width:100%;
-	height:100%;
+.column1 frame {
+    position:relative;
+}
+
+.column2 {
+	width:600px;
+	height:350px;
+	border-style:solid;
+	border-color:black;
+	left:50%;
+}
+
+.column2 frame {
+	position:relative;
 }
 
 
-
-.headlim {
-	background-color:#0984e3;
-	box-shadow:0 1px 1px rgb(148, 148, 148);
-	height: 90px;
-	box-sizing: border-box;
-	width: 450px;
-	font-family: 'Baloo 2', cursive;
-	font-size:27px;
-	text-align:center;
-	color:rgb(65, 116, 116);
-	margin: 25px auto;
-
+.boxes:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.Box1 {
-	background-color:#0984e3;
-	width:500px;
-	box-shadow:0 1px 1px rgb(148, 148, 148);
-	margin:50px;
-	height:300px;
-	text-align:center;
+.boxes h4 {
+    color:white;
+    text-align:center;
 }
-
-.Box2 {
-	background-color:#0984e3;
-	width:500px;
-	box-shadow:0 1px 1px rgb(148, 148, 148);
-	margin:50px;
-	height:300px;
-	text-align:center;
-}
-
-.contact-title {
-	margin-top: 100px;
-	color:black;
-	text-transform: uppercase;
-	transition: all 4s ease-in-out;
-	text-align: center;
-	font-family: 'Baloo 2', cursive;
-}
-.contact-title h1{
-	font-size: 32px;
-	line-height: 10px;
-	text-align:center;
-}
-.contact-title h2{
-	font-size:16px;
-	text-align:center;
-}
-
-form {
-	margin-top: 50px;
-	transition: all 4s ease-in-out;
-}
-
-.form-control {
-	width: 600px;
-	height:35px;	
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: 1px solid gray;
-	color: #0984e3;
-	font-size: 18px;
-	margin-bottom: 16px;
-}
-
-input {
-	height:25px;
-}
-
-form .submit {
-	background-color:orange;
-	border-color:transparent;
-	font-size:20px;
-	font-weight:bold;
-}
-
-form .submit:hover{
-	background-color:orangered;
-	cursor: pointer;
-
-}
-
-
-
